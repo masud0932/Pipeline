@@ -6,8 +6,8 @@ pipeline {
     }
 
     environment {
-        M2_HOME = tool 'Maven' // Explicitly set Maven home
-        PATH = "${M2_HOME}/bin:${env.PATH}" // Ensure Maven is available in the path
+        M2_HOME=tool 'Maven' // Explicitly set Maven home
+        PATH="${M2_HOME}/bin:${env.PATH}" // Ensure Maven is available in the path
     }
 
     stages {
